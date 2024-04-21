@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "Best_Fit_Yelp_Reviews1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/apop1/CLionProjects/Best_Fit_Yelp_Reviews1/cmake-build-debug"
+		},
+		{
+			"name" : "Best_Fit_Yelp_Reviews1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Best_Fit_Yelp_Reviews1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/apop1/CLionProjects/Best_Fit_Yelp_Reviews1"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/apop1/CLionProjects/untitled2/cmake-build-debug"
+			"value" : "c:/Users/apop1/CLionProjects/Best_Fit_Yelp_Reviews1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/apop1/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/apop1/CLionProjects/Best_Fit_Yelp_Reviews1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/apop1/CLionProjects/untitled2"
+			"value" : "C:/Users/apop1/CLionProjects/Best_Fit_Yelp_Reviews1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled2"
+			"value" : "C:/Program Files (x86)/Best_Fit_Yelp_Reviews1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled2"
+			"value" : "Best_Fit_Yelp_Reviews1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1280,42 +1316,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "untitled2_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/apop1/CLionProjects/untitled2/cmake-build-debug"
-		},
-		{
-			"name" : "untitled2_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled2_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/apop1/CLionProjects/untitled2"
 		}
 	],
 	"kind" : "cache",

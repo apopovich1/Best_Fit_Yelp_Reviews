@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled2.exe"
+			"path" : "Best_Fit_Yelp_Reviews1.exe"
 		},
 		{
-			"path" : "untitled2.pdb"
+			"path" : "Best_Fit_Yelp_Reviews1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "untitled2::@6890427a1f51a3e7e1df",
+	"id" : "Best_Fit_Yelp_Reviews1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +78,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "untitled2",
-	"nameOnDisk" : "untitled2.exe",
+	"name" : "Best_Fit_Yelp_Reviews1",
+	"nameOnDisk" : "Best_Fit_Yelp_Reviews1.exe",
 	"paths" : 
 	{
 		"build" : ".",
