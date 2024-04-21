@@ -54,6 +54,7 @@ void heapify_down(vector<Restaurant>& restaurants, int size, int child) {
     // Checks if the left and right child are in bounds of the heap.
     if (left < size && right < size) {
         // Two if statements for choosing the smaller child out of the left and right.
+        // Will favor the left child if both left and right restaurants have the same reviews.
         if (restaurants[left].stars < restaurants[lowest].stars) {
             lowest = left;
         }
