@@ -1,10 +1,17 @@
 #include "Sorter.h"
+#include "Parsing.h"
 
 // Quick Sort Code referenced the Lecture 6 Slides.
-string QuickSort(vector<Restaurant>& restaurants) {
+void QuickSort(vector<Restaurant>& restaurants) {
     QuickSort_Helper(restaurants, 0, static_cast<int>(restaurants.size() -1));
-    Restaurant chosen_restaurant = restaurants[restaurants.size()-1];
-    return chosen_restaurant.name;
+    int upper = 3;
+    if(upper > restaurants.size()){
+        upper = restaurants.size();
+    }
+    cout << "Top "  << upper << " Restaurants using quick sort:" << endl;
+    for(int i = 0; i < upper; i++){
+        cout << i+1 << ") Name: " << restaurants[restaurants.size()-(i+1)].name << ", Rating: " << restaurants[restaurants.size()-(i+1)].stars << ", Address: " << restaurants[restaurants.size()-(i+1)].address << ", " << restaurants[restaurants.size()-(i+1)].city << endl;
+    }
 }
 
 void QuickSort_Helper(vector<Restaurant>& restaurants, int low, int high) {
@@ -71,7 +78,7 @@ void heapify_down(vector<Restaurant>& restaurants, int size, int child) {
     }
 }
 
-string HeapSort(vector<Restaurant>& restaurants) {
+void HeapSort(vector<Restaurant>& restaurants) {
     // Creates a size variable for the heap sort.
     int size = static_cast<int>(restaurants.size());
 
@@ -85,7 +92,15 @@ string HeapSort(vector<Restaurant>& restaurants) {
         std::swap(restaurants[0], restaurants[i]);
         heapify_down(restaurants, i, 0);
     }
+    int upper = 3;
+    if(upper > restaurants.size()){
+        upper = restaurants.size();
+    }
+    cout << "Top "  << upper << " Restaurants using heap sort:" << endl;
+    for(int i = 0; i < upper; i++){
+        cout << i+1 << ") Name: " << restaurants[i].name << ", Rating: " << restaurants[i].stars << ", Address: " << restaurants[i].address << ", " << restaurants[i].city << endl;
+    }
 
     // Outputs the root restaurant name.
-    return restaurants[0].name;
+
 }
