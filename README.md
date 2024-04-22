@@ -1,4 +1,4 @@
-<H1> COP3530 - Project 3 
+<H1> COP3530 - Project 3 Team Chomp Sci
   
 Finding the top three restaurants in an area using quicksort and heapsort</H1>
 <h2> Introduction </h2>
