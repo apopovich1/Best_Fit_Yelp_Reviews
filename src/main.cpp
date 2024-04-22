@@ -17,16 +17,18 @@ int main() {
         state[i] = (toupper(int(state[i])));
     }
     string city;
-    cout << "Enter the city of the restaurant:";
+    cout << "Enter the city of the restaurant , if the city has two words only seperate with a comma:";
     cin >> city;
-    cout << endl;
+    cout << "\n";
     city[0] = toupper(int(city[0]));
     for(int i =1; i< city.size(); i++){
-        city[i] = tolower(city[i]);
+        if(city[i] == ','){
+            city[i] = ' ';
+        }
     }
     string categories;
     cout << "Enter any category for the restaurant, if multiple categories seperated by comma with first letter capitalized:";
-    cin >>categories;
+    cin >> categories;
     cout << endl;
     string zip;
     cout << "What is the zipcode of the targeted area:";
