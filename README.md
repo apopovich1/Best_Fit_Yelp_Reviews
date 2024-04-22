@@ -4,6 +4,7 @@ Finding the top three restaurants in an area using quicksort and heapsort</H1>
 <h2> Introduction </h2>
 *The purpose of this project is to find the top three restaurants in a given city, zipcode, or state
 
+
 *This project uses Yelp database as the basis for the data
 
 *User input for this project in order are: State abbreviation, City, Category, and Zipcode
