@@ -18,12 +18,13 @@ Finding the top three restaurants in an area using quicksort and heapsort</H1>
 <h2> Configuration </h2>
 After downloading this project, make a cMake configuration for it. 
 Configure the include/rapidjson directory as a library file by right clicking on the directory and marking the directory as a library file. If ../include/rapidjson/document.h shows up as not a file retry this step
+
 Additionally, download and unzip the link to for the dataset using the following link:
 Google drive link for Yelp Metadata:[https://drive.google.com/file/d/1IJUUYv_f4AQbjlOwJDVcT4kHRH5nmv-D/view?usp=sharing](url).
 Download and unzip this link to get the true JSON file. Add this dataset to cmake-build-debug by pasting it in the directory.
 With the configuration from cMake, inclusion of the rapidjson files as library files, and JSON data the project will work as shown on github. 
 
-<h2> Refrences </h2>
+<h2> References </h2>
 Yip, Milo (2015) rapidjson (Version 1.1.0) [source code]. Tencent, [https://github.com/Tencent/rapidjson](url).
 
 Tencent is pleased to support the open source community by making RapidJSON available.
