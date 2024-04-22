@@ -1,5 +1,5 @@
 <H1> COP3530 - Project 3 </h1>
-<h1> Finding the top three restaurants in an area using quicksort and heapsort</h1>
+-Finding the top three restaurants in an area using quicksort and heapsort</h1>
 <h2> Introduction </h2>
 *The purpose of this project is to find the top three restaurants in a given city, zipcode, or state
 
